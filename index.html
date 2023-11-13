@@ -2,8 +2,11 @@
 
   <body>
 
-      <label for="in">test</label>
-      <input type="text" id="1" name="fname"><br><br>
+      <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" value="50">
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+      </form>
     
   </body>
   
